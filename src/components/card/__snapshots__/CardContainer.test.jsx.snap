@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardContainer renders 1`] = `
+<div
+  className="card-container false"
+>
+  <div
+    className="card closed"
+  />
+  <div
+    className="card-result"
+  >
+    You won!
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardHeader renders 1`] = `
+<div
+  className="card-header"
+>
+  <h3>
+    
+  </h3>
+  <div
+    className="card-additional-info"
+  >
+    <div>
+      Model: 
+      
+    </div>
+    <div>
+      Manufacturer: 
+      
+    </div>
+  </div>
+</div>
+`;

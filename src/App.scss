@@ -1,0 +1,315 @@
+body {
+  color: #000000;
+  margin: 0 auto;
+  padding: 1em;
+  width: 95vw;
+  max-width: 950px;
+  font-weight: normal;
+  font-size: 18px;
+  background: #000000 url('images/wallpaper-starwars.png') no-repeat 1px 0;
+    
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+.star-wars-top-trumps {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.control-nav,
+.score-nav {
+  flex: auto;
+}
+
+.score-nav {
+  flex-basis: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 440px;
+  position: relative;
+  top: 65px;
+  z-index: 4;
+}
+
+.player-scores {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.player-scores div {
+  width: 100px;
+  height: 100px;
+  background: rgba(0, 0, 0, 0) url('images/deck1.png') no-repeat 0 0;
+  background-size: contain;
+  position: relative;
+}
+
+.player-score {
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  position: absolute;
+  top: 30px;
+  left: 45px;
+}
+
+.player-scores div:nth-child(even) {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.player-scores div:nth-child(even) .player-score {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.game-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 0 50px;
+}
+
+.game-nav-result {
+  color: white;
+  background-color: #65ee0a;
+  color: #232323;;
+  border-radius: 5px;
+  font-size: 2em;
+  margin-top:210px;
+  margin-bottom: 10px;
+  visibility: visible;
+  position: absolute;
+  padding: 0 80px;
+  z-index: 2;
+}
+
+.card-container {
+  padding: 10px;
+}
+
+.card-container.winner .card-result {
+  visibility: visible;
+}
+
+.card-result {
+  color: #28a745;
+  border-radius: 5px;
+  font-size: 2em;
+  margin-top:0px;
+  margin-bottom: 10px;
+  visibility: hidden;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card {
+  background: url('images/cardfront.png') no-repeat 0 -5px;
+  width: 300px;
+  height: 456px;
+  padding: 10px;
+  background-size: cover;
+}
+
+.card.closed {
+  background: url('images/cardback.png') no-repeat 0 -5px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 460px;
+  background-size: cover;
+}
+
+.card-header {
+  background-color: #343444;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 5px;
+}
+
+.card-header h3 {
+  text-align: left;
+  padding: 0;
+  margin: 0 0 7px 0;
+  display: block;
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card-additional-info {
+  overflow: hidden;
+  max-width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card-additional-info div{
+  text-align: left;
+  font-size: .7em;
+  font-style: italic;
+  margin: 0 0 5px 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.card-image-container {
+  overflow: hidden;
+  border: 1px solid #232323;
+  background-color: #000;
+}
+
+.card-image {
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  max-height: 134px;
+}
+.card-body {
+  padding: 0.5rem;
+  padding-top: 45px;
+  border:  #333333 solid 1px;
+    border-radius: 12px;
+}
+
+.card-attribute-list {
+  border: 1px solid #232323;
+  border-top: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #232323;
+  padding: 0 0 5px 0;
+  font-size: .8em;
+  color: white;
+}
+
+.card-attribute-row:nth-child(odd) {
+  background-color: #343444;
+}
+
+.card-attribute-row {
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  opacity: 1;
+  pointer-events:all;
+}
+
+.card-attribute-row.disabled {
+  pointer-events: none;
+  opacity: 0.3;
+}
+.card-attribute-row:hover {
+  background-color: #16161b;
+}
+
+.card-attribute-value {
+  cursor: pointer;
+}
+
+.card-attribute-value:hover,
+.card-attribute-value.selected,
+.card-attribute-label.selected {
+  color: #65ee0a;
+}
+
+.selected-attribute {
+  margin-bottom: 10px;
+  color: #65ee0a;
+}
+
+.control-nav {
+  padding-top: 20px;
+  display: block;
+  bottom: 50px;
+  position: relative;
+}
+
+.button {
+  width: 200px;
+}
+
+/* start da css for da buttons */
+.btn {
+  border-radius: 5px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+  width: 150px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  background-color:  #1d1d27;
+  height: 50px;
+}
+
+.btn.dark.disabled {
+  background-color: #333;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+.dark {
+  background-color: #green;
+}
+
+.dark:hover {
+  background-color: #blue;
+}
+
+.top-trump {
+  background-color:  #1d1d27;
+  color: white;
+  cursor: pointer;
+}
+
+.top-trump:hover, .btn:hover {
+  background-color: #343444;
+  color: white;
+}
+.winner-box {
+  color: white;
+  font-size:12px;
+  span {
+    font-size:24px;
+    color: #28a745;
+  }
+}
+.badge {
+  font-size: 100%;
+}
