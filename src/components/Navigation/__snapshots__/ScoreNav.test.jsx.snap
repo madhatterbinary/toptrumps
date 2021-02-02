@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScoreNav renders 1`] = `
+<div
+  className="score-nav"
+>
+  <div
+    className="player-scores"
+  >
+    <div>
+      <span
+        className="player-score"
+      />
+    </div>
+    <div>
+      <span
+        className="player-score"
+      />
+    </div>
+  </div>
+</div>
+`;

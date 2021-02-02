@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.715426ba.chunk.css",
+    "main.js": "/static/js/main.75e3222e.chunk.js",
+    "main.js.map": "/static/js/main.75e3222e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ab009a47.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ab009a47.js.map",
+    "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
+    "static/js/2.443420ac.chunk.js": "/static/js/2.443420ac.chunk.js",
+    "static/js/2.443420ac.chunk.js.map": "/static/js/2.443420ac.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.715426ba.chunk.css.map": "/static/css/main.715426ba.chunk.css.map",
+    "static/js/2.443420ac.chunk.js.LICENSE.txt": "/static/js/2.443420ac.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/wallpaper-starwars.54657c01.png",
+    "static/media/starship1.jpeg": "/static/media/starship1.3dbe3b22.jpeg",
+    "static/media/starship10.jpeg": "/static/media/starship10.3281fb99.jpeg",
+    "static/media/starship2.png": "/static/media/starship2.377c9747.png",
+    "static/media/starship3.jpeg": "/static/media/starship3.b0efd96d.jpeg",
+    "static/media/starship4.jpg": "/static/media/starship4.879dcff1.jpg",
+    "static/media/starship5.jpeg": "/static/media/starship5.a52e66e7.jpeg",
+    "static/media/starship6.jpeg": "/static/media/starship6.8ad97078.jpeg",
+    "static/media/starship7.jpeg": "/static/media/starship7.d6b6a40b.jpeg",
+    "static/media/starship8.jpeg": "/static/media/starship8.063e29ee.jpeg",
+    "static/media/starship9.jpg": "/static/media/starship9.80f50005.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab009a47.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.443420ac.chunk.js",
+    "static/css/main.715426ba.chunk.css",
+    "static/js/main.75e3222e.chunk.js"
+  ]
+}

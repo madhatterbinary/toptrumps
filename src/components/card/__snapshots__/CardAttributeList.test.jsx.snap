@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardAttributeList renders 1`] = `
+<div
+  className="card-attribute-list"
+>
+  <div
+    className="card-attribute-row"
+    onClick={[Function]}
+  >
+    <span
+      className="card-attribute-label false"
+    >
+      Cost
+      :
+    </span>
+    <span
+      className="card-attribute-value false"
+    >
+      
+    </span>
+  </div>
+  <div
+    className="card-attribute-row"
+    onClick={[Function]}
+  >
+    <span
+      className="card-attribute-label false"
+    >
+      Length
+      :
+    </span>
+    <span
+      className="card-attribute-value false"
+    >
+      
+    </span>
+  </div>
+  <div
+    className="card-attribute-row"
+    onClick={[Function]}
+  >
+    <span
+      className="card-attribute-label false"
+    >
+      Speed
+      :
+    </span>
+    <span
+      className="card-attribute-value false"
+    >
+      
+    </span>
+  </div>
+  <div
+    className="card-attribute-row"
+    onClick={[Function]}
+  >
+    <span
+      className="card-attribute-label false"
+    >
+      Crew
+      :
+    </span>
+    <span
+      className="card-attribute-value false"
+    >
+      
+    </span>
+  </div>
+  <div
+    className="card-attribute-row"
+    onClick={[Function]}
+  >
+    <span
+      className="card-attribute-label false"
+    >
+      Passengers
+      :
+    </span>
+    <span
+      className="card-attribute-value false"
+    >
+      
+    </span>
+  </div>
+  <div
+    className="card-attribute-row"
+    onClick={[Function]}
+  >
+    <span
+      className="card-attribute-label false"
+    >
+      Cargo Capacity
+      :
+    </span>
+    <span
+      className="card-attribute-value false"
+    >
+      
+    </span>
+  </div>
+</div>
+`;

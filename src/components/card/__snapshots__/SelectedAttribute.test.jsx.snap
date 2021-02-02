@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectedAttribute renders 1`] = `
+<div
+  className="selected-attribute"
+>
+  Select an attribute
+</div>
+`;

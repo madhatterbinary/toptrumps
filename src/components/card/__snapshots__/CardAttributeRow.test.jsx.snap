@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardAttributeList renders 1`] = `
+<div
+  className="card-attribute-row"
+  onClick={[Function]}
+>
+  <span
+    className="card-attribute-label selected"
+  >
+    
+    :
+  </span>
+  <span
+    className="card-attribute-value selected"
+  >
+    
+  </span>
+</div>
+`;
+
+exports[`CardAttributeRow renders 1`] = `
+<div
+  className="card-attribute-row"
+  onClick={[Function]}
+>
+  <span
+    className="card-attribute-label false"
+  >
+    
+    :
+  </span>
+  <span
+    className="card-attribute-value false"
+  >
+    
+  </span>
+</div>
+`;

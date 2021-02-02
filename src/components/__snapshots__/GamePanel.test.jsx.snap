@@ -1,0 +1,298 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GamePanel renders 1`] = `
+<div
+  className="game-panel"
+>
+  <div
+    className="card-container false"
+  >
+    <div
+      className="card false"
+    >
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-header"
+        >
+          <h3 />
+          <div
+            className="card-additional-info"
+          >
+            <div>
+              Model: 
+            </div>
+            <div>
+              Manufacturer: 
+            </div>
+          </div>
+        </div>
+        <div
+          className="card-image-container"
+        >
+          <img
+            alt=""
+            className="card-image"
+          />
+        </div>
+        <div
+          className="card-attribute-list"
+        >
+          <div
+            className="card-attribute-row"
+            onClick={[Function]}
+          >
+            <span
+              className="card-attribute-label false"
+            >
+              Cost
+              :
+            </span>
+            <span
+              className="card-attribute-value false"
+            >
+              
+            </span>
+          </div>
+          <div
+            className="card-attribute-row"
+            onClick={[Function]}
+          >
+            <span
+              className="card-attribute-label false"
+            >
+              Length
+              :
+            </span>
+            <span
+              className="card-attribute-value false"
+            >
+              
+            </span>
+          </div>
+          <div
+            className="card-attribute-row"
+            onClick={[Function]}
+          >
+            <span
+              className="card-attribute-label false"
+            >
+              Speed
+              :
+            </span>
+            <span
+              className="card-attribute-value false"
+            >
+              
+            </span>
+          </div>
+          <div
+            className="card-attribute-row"
+            onClick={[Function]}
+          >
+            <span
+              className="card-attribute-label false"
+            >
+              Crew
+              :
+            </span>
+            <span
+              className="card-attribute-value false"
+            >
+              
+            </span>
+          </div>
+          <div
+            className="card-attribute-row"
+            onClick={[Function]}
+          >
+            <span
+              className="card-attribute-label false"
+            >
+              Passengers
+              :
+            </span>
+            <span
+              className="card-attribute-value false"
+            >
+              
+            </span>
+          </div>
+          <div
+            className="card-attribute-row"
+            onClick={[Function]}
+          >
+            <span
+              className="card-attribute-label false"
+            >
+              Cargo Capacity
+              :
+            </span>
+            <span
+              className="card-attribute-value false"
+            >
+              
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="selected-attribute"
+    >
+      Select an attribute
+    </div>
+    <div
+      className="card-result"
+    >
+      You won!
+    </div>
+  </div>
+  <div
+    className="card-container false"
+  >
+    <div
+      className="card false"
+    >
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-header"
+        >
+          <h3 />
+          <div
+            className="card-additional-info"
+          >
+            <div>
+              Model: 
+            </div>
+            <div>
+              Manufacturer: 
+            </div>
+          </div>
+        </div>
+        <div
+          className="card-image-container"
+        >
+          <img
+            alt=""
+            className="card-image"
+          />
+        </div>
+        <div
+          className="card-attribute-list"
+        >
+          <div
+            className="card-attribute-row"
+            onClick={[Function]}
+          >
+            <span
+              className="card-attribute-label false"
+            >
+              Cost
+              :
+            </span>
+            <span
+              className="card-attribute-value false"
+            >
+              
+            </span>
+          </div>
+          <div
+            className="card-attribute-row"
+            onClick={[Function]}
+          >
+            <span
+              className="card-attribute-label false"
+            >
+              Length
+              :
+            </span>
+            <span
+              className="card-attribute-value false"
+            >
+              
+            </span>
+          </div>
+          <div
+            className="card-attribute-row"
+            onClick={[Function]}
+          >
+            <span
+              className="card-attribute-label false"
+            >
+              Speed
+              :
+            </span>
+            <span
+              className="card-attribute-value false"
+            >
+              
+            </span>
+          </div>
+          <div
+            className="card-attribute-row"
+            onClick={[Function]}
+          >
+            <span
+              className="card-attribute-label false"
+            >
+              Crew
+              :
+            </span>
+            <span
+              className="card-attribute-value false"
+            >
+              
+            </span>
+          </div>
+          <div
+            className="card-attribute-row"
+            onClick={[Function]}
+          >
+            <span
+              className="card-attribute-label false"
+            >
+              Passengers
+              :
+            </span>
+            <span
+              className="card-attribute-value false"
+            >
+              
+            </span>
+          </div>
+          <div
+            className="card-attribute-row"
+            onClick={[Function]}
+          >
+            <span
+              className="card-attribute-label false"
+            >
+              Cargo Capacity
+              :
+            </span>
+            <span
+              className="card-attribute-value false"
+            >
+              
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="selected-attribute"
+    >
+      Select an attribute
+    </div>
+    <div
+      className="card-result"
+    >
+      You won!
+    </div>
+  </div>
+</div>
+`;

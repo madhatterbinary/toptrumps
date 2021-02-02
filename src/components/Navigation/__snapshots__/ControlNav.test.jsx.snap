@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ControlNav renders 1`] = `
+<div
+  className="control-nav"
+>
+  <button
+    className="btn top-trump disabled"
+    disabled={true}
+    onClick={[Function]}
+  >
+    Shuffle
+  </button>
+</div>
+`;
